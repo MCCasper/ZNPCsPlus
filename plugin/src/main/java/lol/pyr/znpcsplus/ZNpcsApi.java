@@ -2,11 +2,11 @@ package lol.pyr.znpcsplus;
 
 import lol.pyr.znpcsplus.api.ZApi;
 import lol.pyr.znpcsplus.api.npc.NpcRegistry;
-import lol.pyr.znpcsplus.npc.NPCRegistryImpl;
+import lol.pyr.znpcsplus.npc.NpcRegistryImpl;
 
-public class ZNPCsAPI implements ZApi {
+public class ZNpcsApi implements ZApi {
     @Override
     public NpcRegistry getNpcRegistry() {
-        return NPCRegistryImpl.get();
+        return NpcRegistryImpl.get();
     }
 }
